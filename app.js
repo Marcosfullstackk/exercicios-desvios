@@ -21,9 +21,8 @@ function lacos_de_repeticao_exercicio1(){
 function lacos_de_repeticao_exercicio2(){
 
 
-        let mumerodigitado = prompt ("digita um numero")
+  let mumerodigitado = prompt ("digite um numero")
 
-        let numeroditado = prompt ("digit um numero")
 
 
 for(let i=1 ; i<=9 ; i++ ){
@@ -33,13 +32,83 @@ for(let i=1 ; i<=9 ; i++ ){
     }
 
 
-function lacos_de_repeticao_exercicio3(){
 
-}let numeroZ = prompt("digite um numero")
+ function lacos_de_repeticao_exercicio5(){
+
+    let login = "abc";
+    let senha = "123"
+
+    let tentativas = 3
+
+    let loginDigitado
+    let senhaDigitado
+
+    do{
+        loginDigitado = prompt("login");
+        senhaDigitado = prompt("seha:" );
+
+        if((loginDigitado == login) && (senhaDigitado == senha) ){
+            alert(`Seja em vindo, ${login}` );
+             tntativas =0
+
+        } else if ( tentativas>1){
+            alert("login ou senha invalidos");
+            tentativas--
+            alert(`${tentativas} tentaivas (s) restante (s)`);
+
+
+        } else {alert("login ou Senha invalidos")
+        tentativas--
+        alert("Senha bloqueada!" );}
+
+    }
+   while(tentaivas =0) 
+}
+ 
 
 
 
-lacos_de_repeticao_exercicio3()
+
+                                                          // MATRIZES  18/09 23
 
 
+
+
+
+
+  function tarefa1(){
+
+    alert(" Listas de compras!");
+    let lista = [];
+    let opcao;
+    let resposta = "";
+
+        while (opcao !=3) { 
+            opcao = parseInt= prompt( (" - menu - \n1 - Incluir item\n2- Ver Lista\n 3 - Sair"));
+           switch (opcao) {
+                case 1 :
+                    let item =  prompt("Que item deseja inserir?");
+                    lista.push(item);
+                     alert("item incluío");
+                   break;
+
+                case 2 : 
+                    for(let i=0; i< lista.length; i++){
+                      resposta = resposta + listai[i]; + "\n";
+                    }
+                        alert(resposta)
+                     break
+
+                case 3 :
+                     alert("Saindo");
+                     break
+                     default:
+                         alert("Insira uma opção valida");
+
+            }               
+        }
+    }
+  
+
+tarefa1()
 

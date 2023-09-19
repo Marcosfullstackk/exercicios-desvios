@@ -48,7 +48,7 @@ function desvio3() {
 function desvio3A() {
     let gestante = prompt("Você é gestante?");
     if(gestante=="sim"){
-        else {
+      }  else {
             alert("Va para a fila comum")
     } 
 
@@ -73,7 +73,7 @@ function desvio4(){
      let idade = parseInt( "qual a sua idade?");
     if(idade<16){
         alert("entrada proibida!")
-    }  enlse if ( idade>=16 && idade < 18) {
+    }  else if ( idade>=16 && idade < 18) {
         alert("entrada soment com responsavel!")
     
     }
@@ -99,9 +99,16 @@ function desvio5(){
 
         }
     
- function desvio6(){
-    
-} }
+  
+   
+
+
+  
+  }
+
+
+
+
 
 
  
